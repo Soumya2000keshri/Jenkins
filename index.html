@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Unit Converter</h1>
+	<div class="weight">
+		<div class="converter">
+			<form>
+				<h2>Gram to Kilogram</h2>
+				<input id="gr" type="number" class="input" step="any">gr&nbsp;&nbsp; =
+				<input id="newkg" type="number" class="new" step="any"> kg
+				<input type="button" value="Convert" class="convertgram btn">
+			</form>
+			<form>
+				<h2>Kilogram to Gram</h2>
+				<input id="kg" type="number" class="input" step="any">kg&nbsp;&nbsp; =
+				<input id="newgr" type="number" class="new" step="any"> gr
+				<input type="button" value="Convert" class="convertkg btn">
+			</form>
+		</div>
+	</div>
+
+	<div class="volume">
+		<div class="converter">
+			<form>
+		<h2>Millilitre to Litre</h2>
+				<input id="ml" type="number" class="input" step="any">ml&nbsp;&nbsp; =
+				<input id="newlitr" type="number" class="new" step="any">litr
+				<input type="button" value="Convert" class="convertml btn">
+			</form>
+			<form>
+				<h2>Litre to Millilitre</h2>
+				<input id="litr" type="number" class="input" step="any">litr&nbsp;&nbsp; =
+				<input id="newml" type="number" class="new" step="any">ml
+				<input type="button" value="Convert" class="convertlitr btn">
+			</form>
+		</div>
+	</div>
+
+	<div class="distance">
+		<div class="converter">
+			<form>
+				<h2>Mile to Kilometer</h2>
+				<input id="mile" type="number" class="input" step="any">mi&nbsp;&nbsp; =
+				<input id="newkm" type="number" class="new" step="any"> km
+				<input type="button" value="Convert" class="convertmi btn">
+			</form>
+			<form>
+				<h2>Kilometer to Mile</h2>
+				<input id="km" type="number" class="input" step="any">km&nbsp;&nbsp; =
+				<input id="newmile" type="number" class="new" step="any"> mi
+				<input type="button" value="Convert" class="convertkm btn">
+			</form>
+		</div>
+	</div>
+    
+    <div class="distance">
+		<div class="converter">
+			<form>
+		<h2> Kilometer to Meter</h2>
+			<form>
+				<input id="kilo" type="number" class="input" step="any">km&nbsp;&nbsp; =
+				<input id="newmeter" type="number" class="new" step="any"> m
+				<input type="button" value="Convert" class="convertkilo btn">
+			</form>
+            <form>
+				<h2>Meter to  Kilometer</h2>
+            	<input id="meter" type="number" class="input" step="any">m&nbsp;&nbsp; =
+				<input id="newkilo" type="number" class="new" step="any"> km
+				<input type="button" value="Convert" class="convertm btn">
+			</form>
+		</div>
+	</div>
+
+	<div class="container temperature">
+		<div class="converter">
+			<form>
+				<h2>Fahrenheit to Celsius</h2>
+				<input id="fahr" type="number" class="input" step="any">&#8457;&nbsp;&nbsp; =
+				<input id="newcels" type="number" class="new" step="any">&nbsp;&nbsp;&#8451;
+				<input type="button" value="Convert" class="convertfahr btn">
+			</form>
+			<form>
+				<h2>Celsius to Fahrenheit</h2>
+				<input id="cels" type="number" class="input" step="any">&#8451;&nbsp;&nbsp; =
+				<input id="newfahr" type="number" class="new" step="any"> &#8457;
+				<input type="button" value="Convert" class="convertcels btn">
+			</form>
+		</div>
+	</div>
+    <!-- custom javascript link -->
+    <script src="./script.js"></script>
+</body>
+</html>
